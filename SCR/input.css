@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@layer components{
+    .btn-light{
+        background-color: rgba(185, 193, 201, 0.836);
+        color: black;
+        padding: 8px;
+        border-radius: 3px;
+    }
+    .btn-dark{
+        background-color: rgba(0, 0, 0, 0.747);
+        color: aliceblue;
+        padding: 8px;
+        border-radius: 3px;
+    }
+}
+.btn-light{
+    background-color: rgba(185, 193, 201, 0.836);
+    color: black;
+    padding: 8px;
+    border-radius: 3px;
+}
+.btn-dark{
+    background-color: rgba(0, 0, 0, 0.747);
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 3px;
+}
